@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+
 /*
 Colors:
 
@@ -6,3 +13,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+}
+
+    header {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .nav-bar {
+        
+    }
+
+    header .logo img {
+        width: 100px;
+        margin: 25px;
+    }
+
+    header nav .nav-bar ul {
+        display: flex;
+    }
+    
+    header nav .nav-bar ul li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    header nav .nav-bar ul li a {
+        list-style: none;
+        text-decoration: none;
+        color : #1A1A1A
+    }
+
+    #container-landing {
+        height: 500px;
+        background-image: url('../images/landing.jpg');
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .landing {
+        color : #FFF
+    }
+
+    section .landing h1 {
+        font-size: 50px;
+    }
+    section .landing  p {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    
+    }
+
+    #container-function {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    } 
+
+    #container-function h2 {
+        padding-top: 20px;
+        font-size: 30px;
+    } 
+
+    #container-function article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    #container-function article .function {
+
+        margin: 100px;
+    }
+
+
+    #container-function article .function img {
+        width: 100px;
+    }
+
+    #container-function article .function h3 { 
+        color : #00B172
+    }
+
+    #container-app {
+        background-color: #00B172;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin : 0 10px 0;
+        padding: 0 80px 0;
+    }
+
+    #container-app  {
+        color: #FFF;
+        
+    }
+
+    #container-app .left-part h3 {
+        font-size: 30px;
+        text-decoration: underline;
+        padding-bottom: 20px;
+        
+    }
+    #container-app .left-part article {
+
+    }
+    #container-app .left-part article h4 {
+        color: #FFF;
+
+    }
+    #container-app .left-part article p {
+        color: #FFF;
+
+    }
+
+    #container-app .middle-part {
+
+    }
+
+    #container-app .middle-part img {
+        width: 100px;
+    }
+
+    #container-app .right-part {
+
+    }
+    #container-app .right-part img {
+        width: 300px;
+        height: 500px;
+    }
+
+
